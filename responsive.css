@@ -1,0 +1,171 @@
+@media screen and (max-width: 1200px){
+.fav {
+    display: none !important;
+}
+input {
+    font-size: 11px !important;
+}
+
+.search_bar{
+      width: 30%;
+}
+}
+
+
+@media screen and (max-width: 900px) {
+    .outer-carousel {
+        height: 9%;
+        margin-left: 10%;
+    }
+
+    .carousel img {
+        height: 23vw;
+        width: 34.5vw;
+    }
+    
+    .carousel img:nth-child(1) {
+        left: 56vw;
+    }
+    .carousel img:nth-child(3) {
+        right: 56vw;
+    }
+    .carousel img:hover {
+        height: 27vw;
+        width: 40.5vw;
+    }
+    .stations {
+ 
+        margin-right: 45px;
+    }
+
+    .right_aside::-webkit-scrollbar {
+        display: none;
+    }
+
+    .right_aside{
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        width: 300px;
+        height: 66vh;
+        background-color: #050043;
+        box-shadow: 0px 0px 2px 1px white;
+        right: 0px;
+        top: 23.5%;
+        z-index: 5;
+        overflow: scroll;
+        padding-left:10px;
+        transition: visibility ease-in-out 0.2s;
+        transition: opacity ease-in-out 0.2s;
+    }
+    
+     .left_aside{ 
+         width: 100%;
+      }
+.music-themes{
+      
+      background-color: red !important;
+}
+.stations-main {
+    justify-content: space-between;
+    width: 50%;
+    margin: 1%;
+}
+.station-content{
+    height: 12vw;
+    width: 12vw;
+    margin: 5px 0px;
+}
+
+.station-content img{
+    width: 12vw;
+    height: 12vw;
+    
+}
+.station-content p {
+font-size: 2vw;
+top: -12.5vw;
+}
+}
+
+@media screen and (max-width: 650px) {
+   .all_songs{
+       flex-direction: column;
+       align-items: center;
+   }
+   .all_songs > div {
+    width: 65%;
+    }
+
+    .songinfo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2px;
+        margin-bottom: 16px;
+    }
+
+    .outer-div {
+        width: 36vw;
+        height: 24vw;
+        min-width: 123px;
+        min-height: 82px;
+    }
+    
+  
+
+}
+
+
+@media screen and (max-width: 550px){
+.logo_img img {
+    height: 30px;
+    width: 30px;
+}
+.artist-card p {
+   
+    font-size: 13px;
+}
+
+
+.logo  h1{
+    font-size: 3vw; 
+}
+
+.logo h4{
+    font-size: 2vw;
+}
+
+.bell img{
+    width:25px;
+    height: 25px;
+}
+
+.profile_pic img{
+    width:30px;
+    height: 30px;
+   
+}
+
+.song_info h1{
+    font-size: 13px;
+
+}
+
+.songinfo p{
+     font-size: 12px;
+}
+
+.songinfo svg.svg-inline--fa.fa-play.fa-w-14 {
+    font-size: 14px;
+}
+
+
+.song_info h3{
+    font-size: 16px;
+
+}
+.nav{
+    margin-bottom: 3%;
+}
+}

@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="responsive.css"/>
+        <title>Music Player</title>
+        <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+   <navbar class="nav">
+
+    <div class="logo">
+     <div class="logo_img">
+    <img src="./images/Website_logo.png" alt="logo"></div>
+    <div class="logo_title">
+    <h1>Ninja</h1>
+    <h4>Studio</h4>
+    </div>
+    </div>
+
+    <div class="fav">
+    <a href="" class="fava">Favourites</a>
+    </div>
+
+    <div class="search_bar">
+
+        <div>
+        
+            <svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" 
+            focusable="false" data-prefix="fas" data-icon="search" role="img" 
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+            <path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path>
+        </svg>
+        </div>
+    <input type="text" name="search"  placeholder="Search">
+    <div>
+        <svg class="svg-inline--fa fa-microphone-alt fa-w-11" aria-hidden="true" 
+        focusable="false" data-prefix="fas" data-icon="microphone-alt" role="img" 
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512" data-fa-i2svg="">
+        <path fill="currentColor" d="M336 192h-16c-8.84 0-16 7.16-16 16v48c0 74.8-64.49 134.82-140.79 127.38C96.71 376.89 48 317.11 48 250.3V208c0-8.84-7.16-16-16-16H16c-8.84 0-16 7.16-16 16v40.16c0 89.64 63.97 169.55 152 181.69V464H96c-8.84 0-16 7.16-16 16v16c0 8.84 7.16 16 16 16h160c8.84 0 16-7.16 16-16v-16c0-8.84-7.16-16-16-16h-56v-33.77C285.71 418.47 352 344.9 352 256v-48c0-8.84-7.16-16-16-16zM176 352c53.02 0 96-42.98 96-96h-85.33c-5.89 0-10.67-3.58-10.67-8v-16c0-4.42 4.78-8 10.67-8H272v-32h-85.33c-5.89 0-10.67-3.58-10.67-8v-16c0-4.42 4.78-8 10.67-8H272v-32h-85.33c-5.89 0-10.67-3.58-10.67-8v-16c0-4.42 4.78-8 10.67-8H272c0-53.02-42.98-96-96-96S80 42.98 80 96v160c0 53.02 42.98 96 96 96z"></path>
+    </svg>
+    </div>
+    </div>
+
+    <div class="bell"> 
+     <img src="./images/notification-bell.png" alt="notification-bell">
+    </div>
+
+    <div class="profile_pic">
+        <img src="./images/profile_picture.png">
+    </div>
+  </navbar>
+  
+  
+  <main-content class="main_container">
+    <aside class="aside left_aside">
+        <div class="outer-carousel">
+            <div class="carousel">
+                <img src="./images/crousel/carousel1.png">
+                <img src="./images/crousel/carousel2.png">
+                <img src="./images/crousel/carousel3.png">
+            </div>
+        </div>
+
+     <div class="latest_release">
+        <h1 style="margin-bottom: 12px;">Latest Release</h1>
+
+       <div class="all_songs">
+        <div class="latest_songs">
+            <div class="song_logo">
+        <img src="./images/songs/perfect.png"></div>
+        <div class="song_info">
+            <h1>Perfect</h1>
+            <h3>Dec 22,2021</h3>
+        </div>
+        <div class="song_options">
+            <p>4:44</p>
+         </div>
+          </div>
+
+          <div class="latest_songs">
+            <div class="song_logo">
+        <img src="./images/songs/monster.png"></div>
+        <div class="song_info">
+            <h1>Monster</h1>
+            <h3>Jan 22,2021</h3>
+        </div>
+        <div class="song_options">
+            <p>4:44</p>
+         </div>
+          </div>
+
+          <div class="latest_songs">
+            <div class="song_logo">
+        <img src="./images/songs/intentions.png"></div>
+        <div class="song_info">
+            <h1>intentions</h1>
+            <h3>May 22,2021</h3>
+        </div>
+        <div class="song_options">
+            <p>4:44</p>
+         </div>
+          </div>
+
+          <div class="latest_songs">
+            <div class="song_logo">
+        <img src="./images/songs/savage love.png"></div>
+        <div class="song_info">
+            <h1>Savage Love</h1>
+            <h3>Dec 22,2021</h3>
+        </div>
+        <div class="song_options">
+            <p>4:44</p>
+         </div>
+          </div>
+        </div>
+     </div>
+
+     <div class="popular-artist">
+
+      <div><h1>Popular Artist</h1></div> 
+ <div class="main-artist-div">
+      
+        <a href="Single Playlist.html">
+      <div class="artist-card">
+        <div><i class="fas fa-play"></i></div>
+      <img src="./images/popular artists/arijit.jpg">
+        <p>Arjit Singh</p></a>
+      </div>
+    
+    
+        <a href="Single Playlist.html">
+      <div class="artist-card">
+        <div><i class="fas fa-play"></i></div>
+        <img src="./images/popular artists/badshah.jpg">
+          <p>Badshah</p></a>
+        </div>
+    
+       
+          <a href="Single Playlist.html">
+        <div class="artist-card">
+          <div><i class="fas fa-play"></i></div>
+          <img src="./images/popular artists/coldplay.png">
+            <p>Cold Play</p></a>
+          </div>
+    
+          
+            <a href="Single Playlist.html">
+          <div class="artist-card">
+            <div><i class="fas fa-play"></i></div>
+            <img src="./images/popular artists/selena.jpg">
+              <p>Selena</p></a>
+            </div>
+    
+           
+              <a href="Single Playlist.html">
+            <div class="artist-card">
+              <div><i class="fas fa-play"></i></div>
+              <img src="./images/popular artists/jbalvin.jpg">
+                <p>jbalvin</p></a>
+              </div>
+     </div> 
+  </div>
+
+  <div class="music-themes">
+
+    <div class="stations">
+      <div id="div1">
+          <div id="div2">
+              <div id="div3">
+                  <img src="./images/station.png">
+                  <p>Stations</p>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="stations-main">
+    <div class="station-content">
+      <img src="./images/music themes/chill.png">
+      <p>Chill</p>
+    </div>
+
+    <div class="station-content">
+      <img src="./images/music themes/love.png">
+      <p>Love</p>
+    </div>
+
+    <div class="station-content">
+      <img src="./images/music themes/pop.png">
+      <p>Pop</p>
+    </div>
+
+    <div class="station-content">
+      <img src="./images/music themes/retro.jpg">
+      <p>Retro</p>
+    </div>
+
+    <div class="station-content">
+      <img src="./images/music themes/rock.jpg">
+      <p>Rock</p>
+    </div>
+
+    <div class="station-content">
+      <img src="./images/music themes/workout.png">
+      <p>Workout</p>
+    </div>
+  </div>
+  </div>
+  <div class="music-themes-2">
+    
+    <div class="outer-div">
+        <div class="inner-div">
+            <span>Party</span>
+        </div>
+    </div>
+    <div class="outer-div">
+        <div class="inner-div">
+            <span>Electronic</span>
+        </div>
+    </div>
+    <div class="outer-div">
+        <div class="inner-div">
+            <span>Road Trip</span>
+        </div>
+    </div>
+</div>
+
+
+  <div class="english-songs">
+  <h1> Latest English Songs</h1>
+  <div class=songlist>
+    <div class="engsong">
+      <img src="./images/latest english/afterglow.png">
+      <div class="songinfo">
+        <p>After Glow</p>
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+
+   
+
+    <div class="engsong">
+      <img src="./images/latest english/life goes on.png">
+      <div class="songinfo">
+        <p>Life Goes</p>
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+
+    <div class="engsong">
+      <img src="./images/latest english/mood.png">
+      <div class="songinfo">
+        <p>Mood</p>
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+
+
+    <div class="engsong">
+      <img src="./images/latest english/lonely.png">
+      <div class="songinfo">
+        <p>Lonely</p>
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+
+    <div class="engsong">
+      <img src="./images/latest english/mood.png">
+      <div class="songinfo">
+        <p>Mood</p>
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+
+    <div class="engsong">
+      <img src="./images/latest english/willow.png">
+      <div class="songinfo">
+        <p>Willow</p>
+        <i class="fas fa-play"></i>
+      </div>
+    </div>
+</div>
+  </div>
+
+  <div class="english-songs" id="hindisong">
+    <h1> Latest Hindi Songs</h1>
+    <div class=songlist>
+      <div class="engsong">
+        <img src="./images/latest hindi/burjkhalifa.png">
+        <div class="songinfo">
+          <p>burjkhalifa</p>
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+  
+     
+  
+      <div class="engsong">
+        <img src="./images/latest hindi/genda phool.png">
+        <div class="songinfo">
+          <p>genda Phool</p>
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+  
+      <div class="engsong">
+        <img src="./images/latest hindi/hum tum.png">
+        <div class="songinfo">
+          <p>Hum tum</p>
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+  
+  
+      <div class="engsong">
+        <img src="./images/latest hindi/naach meri rani.png">
+        <div class="songinfo">
+          <p>Nach Rani</p>
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+  
+      <div class="engsong">
+        <img src="./images/latest hindi/nayan.png">
+        <div class="songinfo">
+          <p>nayan</p>
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+  
+      <div class="engsong">
+        <img src="./images/latest hindi/power of dreams.png">
+        <div class="songinfo">
+          <p>dreams</p>
+          <i class="fas fa-play"></i>
+        </div>
+      </div>
+  </div>
+    </div>
+        
+      
+    
+    </aside>
+
+
+
+
+
+    <aside class="aside right_aside">
+        <div class="heading">
+        <h1>Queue</h1>
+        </div>
+<div class="playlist">
+  <div class="playlist_content">
+  <div class="playlist_logo"> <img src="./images/playlist/imagine.png"></div>
+  <div class="playlist_info"> <h1>Imagine</h1> <p>Flume</p></div>
+  <div class="playlist_like">
+  <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+  focusable="false" data-prefix="far" data-icon="heart" role="img"
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+  <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+   </path>
+     </svg>
+    </div>
+    </div>
+
+   
+        <div class="playlist_content">
+        <div class="playlist_logo"> <img src="./images/playlist/mirage.png"></div>
+        <div class="playlist_info"> <h1>Mirage</h1> <h3>Flume</h3></div>
+        <div class="playlist_like">
+        <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+        focusable="false" data-prefix="far" data-icon="heart" role="img"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+        <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+         </path>
+           </svg>
+          </div>
+          </div> 
+  
+        
+            <div class="playlist_content">
+            <div class="playlist_logo"> <img src="./images/playlist/mirage1.jpg"></div>
+            <div class="playlist_info"> <h1>Mirage2</h1> <h3>Flume</h3></div>
+            <div class="playlist_like">
+            <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+            focusable="false" data-prefix="far" data-icon="heart" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+            <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+             </path>
+               </svg>
+              </div>
+              </div>
+        
+                  <div class="playlist_content">
+                  <div class="playlist_logo"> <img src="./images/playlist/new skin.png"></div>
+                  <div class="playlist_info"> <h1>New Skin</h1> <h3>Flume</h3></div>
+                  <div class="playlist_like">
+                  <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+                  focusable="false" data-prefix="far" data-icon="heart" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                   </path>
+                     </svg>
+                    </div>
+                    </div> 
+                        
+            
+              
+                  <div class="playlist_content">
+              <div class="playlist_logo"> <img src="./images/playlist/worryboutus.png"></div>
+                  <div class="playlist_info"> <h1>Worry Boutus</h1> <h3>Flume</h3></div>
+                  <div class="playlist_like">
+                  <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+                  focusable="false" data-prefix="far" data-icon="heart" role="img"
+                  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                  <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                   </path>
+                     </svg>
+                    </div>
+                    </div>
+                
+                   
+                        <div class="playlist_content">
+                        <div class="playlist_logo"> <img src="./images/playlist/imagine.png"></div>
+                        <div class="playlist_info"> <h1>Imagine</h1> <p>Flume</p></div>
+                        <div class="playlist_like">
+                        <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+                        focusable="false" data-prefix="far" data-icon="heart" role="img"
+                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                        <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+                         </path>
+                           </svg>
+                          </div>
+                          </div> 
+                  
+<div class="playlist_content">
+  <div class="playlist_logo"> <img src="./images/playlist/imagine.png"></div>
+  <div class="playlist_info"> <h1>Imagine</h1> <p>Flume</p></div>
+  <div class="playlist_like">
+  <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+  focusable="false" data-prefix="far" data-icon="heart" role="img"
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+  <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+   </path>
+     </svg>
+    </div>
+    </div>
+
+    
+        <div class="playlist_content">
+        <div class="playlist_logo"> <img src="./images/playlist/imagine.png"></div>
+        <div class="playlist_info"> <h1>Imagine</h1> <p>Flume</p></div>
+        <div class="playlist_like">
+        <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+        focusable="false" data-prefix="far" data-icon="heart" role="img"
+        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+        <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+         </path>
+           </svg>
+          </div>
+          </div> 
+  
+         
+            <div class="playlist_content">
+            <div class="playlist_logo"> <img src="./images/playlist/imagine.png"></div>
+            <div class="playlist_info"> <h1>Imagine</h1> <p>Flume</p></div>
+            <div class="playlist_like">
+            <svg class="svg-inline--fa fa-heart fa-w-16" aria-hidden="true" 
+            focusable="false" data-prefix="far" data-icon="heart" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+            <path fill="currentColor" d="M458.4 64.3C400.6 15.7 311.3 23 256 79.3 200.7 23 111.4 15.6 53.6 64.3-21.6 127.6-10.6 230.8 43 285.5l175.4 178.7c10 10.2 23.4 15.9 37.6 15.9 14.3 0 27.6-5.6 37.6-15.8L469 285.6c53.5-54.7 64.7-157.9-10.6-221.3zm-23.6 187.5L259.4 430.5c-2.4 2.4-4.4 2.4-6.8 0L77.2 251.8c-36.5-37.2-43.9-107.6 7.3-150.7 38.9-32.7 98.9-27.8 136.5 10.5l35 35.7 35-35.7c37.8-38.5 97.8-43.2 136.5-10.6 51.1 43.1 43.5 113.9 7.3 150.8z">
+             </path>
+               </svg>
+              </div>
+              </div>
+              </div>
+          
+    </aside>
+
+
+  </main-content>
+
+
+ 
+
+
+
+
+
+
+    </body>
+</html>
